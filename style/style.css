@@ -179,6 +179,10 @@ li {
     padding-top: 50px;
     padding-left: 50px;
 }
+.Explore__arow a {
+position: relative;
+z-index: 99999;
+}
 .Explore__now{
     margin-right: 20px;
     font-weight: bold;
