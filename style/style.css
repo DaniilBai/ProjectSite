@@ -154,34 +154,6 @@ li {
     align-items: center;
     justify-content: center;
 }
-.Description__what_better{
-    display: flex;
-    padding: 30px 60px;
-    justify-content: space-between;
-    max-width: 100%;
-    box-sizing: border-box;
-    flex-direction: column;
-    position: relative;
-    background-position-x: 97%;
-}
-.why_best{
-    display: flex;
-    text-align: center;
-    font-family: 'Rosario', sans-serif;
-    font-size: 70px;
-    margin-top: 50px;
-    justify-content: start;
-    color: #222222;
-}
-.Why_best_text{
-    text-align: start;
-    justify-content: start;
-    font-family: 'DM Sans', sans-serif;
-    line-height: 1.5;
-    margin-top: 20px;
-    font-size: 18px;
-    color: #555555;
-}
 .main__wrapper{
     display: flex;
     background: #F3FBF8 no-repeat 95% 50%;
@@ -212,6 +184,10 @@ li {
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
 }
+.Explore__arow a {
+    position: relative;
+    z-index: 99999;
+    }
 .Leaves{
     display: flex;
     position: relative;
