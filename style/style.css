@@ -1,0 +1,339 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px 60px;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+}
+.menu li {
+    margin-left: 40px;
+}
+.menu li a { 
+    color: #222222;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.menu li a:hover { 
+    text-decoration: none;
+    color: #870cc0;
+}
+.icon_div{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.planet__earth{
+    display: flex;
+}
+.search{
+    margin: 10px;
+}
+.corzina{
+    margin: 10px;
+}
+.regestar{
+    margin: 10px;
+}
+.main{
+    display: flex;
+    padding: 0px 100px 100px 100px;
+    background-color: #F3FBF8;
+    justify-content: space-between;
+    max-width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative; 
+}
+.global_site_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 135px;
+    font-family: 'Rosario', sans-serif;
+    color: #222222;
+}
+.lorem__description{
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555555;
+    font-family: 'DM Sans', sans-serif;
+}
+.order__now_arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.order__now{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.statistic{
+   display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistic_one{
+    display: flex;
+    padding-left: 24.5px;
+    flex-direction: column;
+}
+.statistic_two{
+    display: flex;
+    padding-left: 24.5px;
+    flex-direction: column;
+}
+.statistic_three{
+    display: flex;
+    padding-left: 24.5px;
+    flex-direction: column;
+}
+.statistic_30k{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+}
+.user_order{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+.statistic_20k{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+}
+.reviews{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+.statistic_300{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+}
+.items{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+}
+.allstatistic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.allstats{
+    width: 250px;
+    height: 116px;
+    background-color: #fff;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.Description__what_better{
+    display: flex;
+    padding: 30px 60px;
+    justify-content: space-between;
+    max-width: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative;
+    background-position-x: 97%;
+}
+.why_best{
+    display: flex;
+    text-align: center;
+    font-family: 'Rosario', sans-serif;
+    font-size: 70px;
+    margin-top: 50px;
+    justify-content: start;
+    color: #222222;
+}
+.Why_best_text{
+    text-align: start;
+    justify-content: start;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555555;
+}
+.main__wrapper{
+    display: flex;
+    background: #F3FBF8 no-repeat 95% 50%;
+    padding: 30px 60px;
+}
+.Explore__our{
+    font-size: 70px;
+    font-family: 'Rosario', sans-serif;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: #222222;
+}
+.Explore__text1{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: 'DM Sans', sans-serif;
+}
+.Explore__arow{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.Explore__now{
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+.Leaves{
+    display: flex;
+    position: relative;
+    padding-left: 276px;
+    top: -100px;
+}
+.section__Phone{
+    display: flex;
+    padding: 150px 200px;
+}
+.Simple__way{
+    font-size: 70px;
+    padding-top: 16px;
+    padding-left: 112px;
+    font-family: 'Rosario', sans-serif;
+    color: #222222;
+}
+.Lorem__simply{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 112px;
+    color: #555555;
+    line-height: 1.5;
+    font-family: 'DM Sans', sans-serif;
+}
+.dowload{
+    padding-left: 112px;
+}
+.app_store{
+    padding: 50px 24px 0px 112px
+}
+.footer{
+    padding: 30px 60px 80px 60px;
+}
+.footer__main{
+    display: flex;
+    text-decoration: none;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__info1{
+    display: flex;
+    flex-direction: column;
+}
+.Footer_text{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    line-height: 1.5;
+    color: #555555;
+}
+.Navigation{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+.Resources{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+.Text_about_footer{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 54px;
+}
+.contact_us{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+.email{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    text-decoration: none;
+}
+.contact__icon{
+    display: flex;
+    padding-top: 25px;
+}
+.footer__info2 li{
+    text-decoration: none;
+    color: #555555;
+}
+.footer__info3 li{
+    text-decoration: none;
+    color: #555555;
+}
+.twitter{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer__info2 li { 
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.footer__info2 li:hover { 
+    text-decoration: none;
+    color: #870cc0;
+}
+.footer__info3 li { 
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.footer__info3 li:hover { 
+    text-decoration: none;
+    color: #870cc0;
+}
+.progressbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    transform-origin: left center;
+    transform: scaleX(0);
+    transition: transform 0.2s ease;
+}
